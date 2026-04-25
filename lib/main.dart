@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/features/todo/presentation/widgets/appbar_widget.dart';
 
 void main() {
   runApp(const ToDoApp());
@@ -13,7 +14,7 @@ class ToDoApp extends StatelessWidget {
       home: Scaffold(
         body: Column(
           children: [
-            Container()
+            AppbarWidget()
           ],
         ),
       ),
